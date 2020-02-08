@@ -8,11 +8,11 @@ const Main: preact.FunctionalComponent<IProps> = (props: IProps) => {
 
     const { type } = props;
 
-    useEffect(()=> {
-        console.log('-------->type', type)
-    }, [type])
-    
-    return <div>Hello Preact</div>
-}
+    useEffect(() => {
+        console.log('-------->type', type);
+    }, [type]);
+
+    return <div>Hello Preact</div>;
+};
 
 export default Main;
