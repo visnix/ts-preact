@@ -1,6 +1,6 @@
-import { Component as PreactComponent } from '../../src/internal';
+import { Component as PreactComponent } from '../preact/internal';
 
-export { PreactContext } from '../../src/internal';
+export { PreactContext } from '../preact/internal';
 
 /**
  * The type of arguments passed to a Hook function. While this type is not

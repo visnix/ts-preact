@@ -1,4 +1,4 @@
-import { PreactContext, Ref as PreactRef } from '../..';
+import { PreactContext, Ref as PreactRef } from '../preact/index';
 
 type Inputs = ReadonlyArray<unknown>;
 
