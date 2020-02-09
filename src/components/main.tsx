@@ -12,7 +12,12 @@ const Main: preact.FunctionalComponent<IProps> = (props: IProps) => {
         console.log('-------->type', type);
     }, [type]);
 
-    return <div>Hello Preact</div>;
+    return (
+        <div className="main">
+            <h1>Hello Preact</h1>
+            <p>type:{type}</p>
+        </div>
+    );
 };
 
 export default Main;
