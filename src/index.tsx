@@ -16,7 +16,7 @@ const App: preact.FunctionalComponent = () => {
     };
 
     return (
-        <div>
+        <div className="app">
             <Main type={type} />
             <button onClick={handleClick}>改变状态</button>
         </div>
